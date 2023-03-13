@@ -1,13 +1,19 @@
-## 删除分支
 
----
 
+```
 git tag -l | awk '/v[1-2]{1}/{print}' | xargs git push origin --delete tag
 git tag -l | awk '/v[1-2]{1}/{print}' | xargs git tag -d
+```
 
-JZK515wei
+```
+git删除远程分支
+git push origin --delete [branch_name]
+```
 
----
+```
+：查看本地和远程仓库的所有分支
+git branch -a
+```
 
 ## 更换仓库地址
 
