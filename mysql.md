@@ -16,6 +16,4 @@ create user 'a'@'127.0.0.1' identified by '******';
 grant all privileges ON a.* to  'a'@'127.0.0.1'; 
 
 CREATE DATABASE battery DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
-
-
 ```
