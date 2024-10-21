@@ -17,3 +17,5 @@ grant all privileges ON a.* to  'a'@'127.0.0.1';
 
 CREATE DATABASE battery DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 ```
+
+https://zhuanlan.zhihu.com/p/612059265
